@@ -54,3 +54,10 @@ body {
   margin-bottom: 60px;
   font-family: "font-global";
 }
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .sombra {
+    top: 80px;
+    bottom: -82px;
+  }
+}
