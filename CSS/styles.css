@@ -55,9 +55,13 @@ body {
   font-family: "font-global";
 }
 
-@media (min-width: 200px) and (max-width: 500px) {
+@media (min-width: 200px) and (max-width: 400px) {
   .sombra {
-    top: 80px;
-    bottom: -82px;
+    top: 57px;
+    bottom: -60px;
+  }
+
+  .title {
+    display: none;
   }
 }
