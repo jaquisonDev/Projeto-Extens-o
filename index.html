@@ -241,23 +241,30 @@
       </div>
     </section>
 
-    <h1>Quer conhecer mais? Informe abaixo!</h1>
-    <section class="container">
-      <div>
-        <form action="" class="d-flex flex-column">
+    <h1 class="title text-center py-3">Conheça mais os cursos!</h1>
+
+    <section class="container mt-5">
+      <div class="border border-1 border-info rounded p-4">
+        <h5 class="text-success text-center p-3">
+          Quer conhecer mais? Informe abaixo!
+        </h5>
+        <form
+          action=""
+          class="d-flex align-items-center justify-content-center flex-column gap-2"
+        >
           <input
             type="text"
             name="name"
             id="name"
-            class="form-control"
-            placeholder="Digite seu nome"
+            class="form-control w-50"
+            placeholder="Seu nome..."
           />
           <input
             type="text"
             name="tel"
             id="tel"
-            class="form-control"
-            placeholder="Digite seu telefone"
+            class="form-control w-50"
+            placeholder="Seu telefone(com DDD)..."
           />
 
           <button class="btn btn-warning">Enviar</button>
