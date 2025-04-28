@@ -55,6 +55,10 @@ body {
   font-family: "font-global";
 }
 
+.font_title {
+  font-family: "font-global";
+}
+
 @media (min-width: 200px) and (max-width: 400px) {
   .sombra {
     top: 57px;
